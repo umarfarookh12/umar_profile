@@ -32,7 +32,7 @@ function App() {
       <Button onClick={() => setCount((count) => (count = count + 1))}>
         Click me
       </Button>
-      <p>{count * 2}</p>
+      <p>{count}</p>
     </>
   );
 }

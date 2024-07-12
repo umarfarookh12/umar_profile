@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Menu, Package2, Package2Icon } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
@@ -24,37 +24,37 @@ const NavBar = () => {
               </SheetTrigger>
               <SheetContent side="left">
                 <nav className="grid gap-6 text-lg font-medium">
-                  <NavLink
-                    to="#"
+                  <Link
+                    to="/"
                     className="flex items-center gap-2 text-lg font-semibold"
                   >
                     <Package2 className="h-6 w-6" />
                     <span className="sr-only">Acme Inc</span>
-                  </NavLink>
-                  <NavLink
-                    to="src/components/NavLinks/About.tsx"
+                  </Link>
+                  <Link
+                    to={`About`}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     About
-                  </NavLink>
-                  <NavLink
-                    to="src/components/NavLinks/MyProjects.tsx"
+                  </Link>
+                  <Link
+                    to={`MyProjects`}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     MyProjects
-                  </NavLink>
-                  <NavLink
-                    to="src/components/NavLinks/Contact.tsx"
+                  </Link>
+                  <Link
+                    to={`contact`}
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Contact
-                  </NavLink>
+                  </Link>
                 </nav>
               </SheetContent>
             </Sheet>
-            <NavLink to="/" className="hidden md:block gap-2 ">
+            <Link to="/" className="hidden md:block gap-2 ">
               <Package2Icon className="h-6 w-6" />
-            </NavLink>
+            </Link>
             <div>
               <p className="text-md md:text-2xl font-bold font-monoton uppercase text-violet-600 tracking-widest">
                 Umar farookh
@@ -63,24 +63,24 @@ const NavBar = () => {
           </div>
           <div className="grid md:grid-cols-2 gap-4 content-between">
             <nav className="hidden flex-col justify-evenly items-center w-full gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-md lg:gap-6 ">
-              <NavLink
-                to="src/components/NavLinks/About.tsx"
+              <Link
+                to={`About`}
                 className="hover:underline text-muted-foreground transition-colors hover:text-foreground"
               >
                 About
-              </NavLink>
-              <NavLink
-                to="src/components/NavLinks/MyProjects.tsx"
+              </Link>
+              <Link
+                to={`MyProjects`}
                 className="hover:underline text-muted-foreground transition-colors hover:text-foreground"
               >
                 MyProjects
-              </NavLink>
-              <NavLink
-                to="src/components/NavLinks/Contact.tsx"
+              </Link>
+              <Link
+                to={`contact`}
                 className="hover:underline text-muted-foreground transition-colors hover:text-foreground"
               >
                 Contact
-              </NavLink>
+              </Link>
             </nav>
 
             <div className="flex justify-end w-auto gap-2">

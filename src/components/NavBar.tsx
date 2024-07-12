@@ -7,7 +7,7 @@ import { ThemeToggle } from "./ThemeToggle";
 const NavBar = () => {
   return (
     <div>
-      <div className="flex min-h-screen w-full flex-col">
+      <div className="flex h-auto w-full flex-col">
         <header className="sticky top-0 grid grid-flow-row-dense grid-cols-2 md:grid-cols-2 content-center place-content-between h-16 items-center gap-4 border-b px-4 md:px-6 backdrop-blur-sm bg-white/30 dark:bg-black">
           {/* name Logo */}
           <div className="flex w-full justify-start md:ps-5 items-center gap-4 md:ml-auto md:gap-2 lg:gap-10 md:h-10">
@@ -31,6 +31,7 @@ const NavBar = () => {
                     <Package2 className="h-6 w-6" />
                     <span className="sr-only">Acme Inc</span>
                   </Link>
+                  <Link to="/">Home</Link>
                   <Link
                     to={`About`}
                     className="text-muted-foreground hover:text-foreground"
@@ -64,20 +65,26 @@ const NavBar = () => {
           <div className="grid md:grid-cols-2 gap-4 content-between">
             <nav className="hidden flex-col justify-evenly items-center w-full gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-md lg:gap-6 ">
               <Link
+                to="/"
+                className="text-muted-foreground transition-colors hover:text-blue-700"
+              >
+                Home
+              </Link>
+              <Link
                 to={`About`}
-                className="hover:underline text-muted-foreground transition-colors hover:text-foreground"
+                className="text-muted-foreground transition-colors hover:text-blue-700 "
               >
                 About
               </Link>
               <Link
                 to={`MyProjects`}
-                className="hover:underline text-muted-foreground transition-colors hover:text-foreground"
+                className="text-muted-foreground transition-colors  hover:text-blue-700"
               >
                 MyProjects
               </Link>
               <Link
                 to={`contact`}
-                className="hover:underline text-muted-foreground transition-colors hover:text-foreground"
+                className="text-muted-foreground transition-colors hover:text-blue-700"
               >
                 Contact
               </Link>

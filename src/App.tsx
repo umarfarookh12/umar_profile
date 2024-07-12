@@ -1,10 +1,10 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "./components/ThemeProvider";
 
-import Home from "./components/NavLinks/Home";
-import About from "./components/NavLinks/About";
-import MyProjects from "./components/NavLinks/MyProjects";
-import Contact from "./components/NavLinks/Contact";
+import Home from "./components/routes/Home";
+import About from "./components/routes/About";
+import MyProjects from "./components/routes/MyProjects";
+import Contact from "./components/routes/Contact";
 import NavBar from "./components/NavBar";
 
 function App() {

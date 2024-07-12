@@ -1,23 +1,16 @@
 import { NavLink } from "react-router-dom";
-import { CircleUser, Menu, Package2, Package2Icon } from "lucide-react";
+import { Menu, Package2, Package2Icon } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
+import { ThemeToggle } from "./ThemeToggle";
 
 const NavBar = () => {
   return (
     <div>
       <div className="flex min-h-screen w-full flex-col">
-        <header className="sticky top-0 grid grid-flow-row-dense grid-cols-2 md:grid-cols-2 content-center place-content-between h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
+        <header className="sticky top-0 grid grid-flow-row-dense grid-cols-2 md:grid-cols-2 content-center place-content-between h-16 items-center gap-4 border-b px-4 md:px-6 backdrop-blur-sm bg-white/30 dark:bg-black">
           {/* name Logo */}
-          <div className="flex w-full justify-start items-center gap-4 md:ml-auto md:gap-2 lg:gap-10 md:h-10 border border-black">
+          <div className="flex w-full justify-start md:ps-5 items-center gap-4 md:ml-auto md:gap-2 lg:gap-10 md:h-10">
             <Sheet>
               <SheetTrigger asChild>
                 <Button
@@ -63,8 +56,8 @@ const NavBar = () => {
               <Package2Icon className="h-6 w-6" />
             </NavLink>
             <div>
-              <p className="text-md md:text-xl font-bold font-inter uppercase text-violet-900 ">
-                Umar
+              <p className="text-md md:text-2xl font-bold font-monoton uppercase text-violet-600 tracking-widest">
+                Umar farookh
               </p>
             </div>
           </div>
@@ -76,7 +69,6 @@ const NavBar = () => {
               >
                 About
               </NavLink>
-
               <NavLink
                 to="src/components/NavLinks/MyProjects.tsx"
                 className="hover:underline text-muted-foreground transition-colors hover:text-foreground"
@@ -100,26 +92,8 @@ const NavBar = () => {
                   />
                 </a>
               </Button>
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button
-                    variant="secondary"
-                    size="icon"
-                    className="rounded-full"
-                  >
-                    <CircleUser className="h-5 w-5" />
-                    <span className="sr-only">Toggle user menu</span>
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
-                  <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>Settings</DropdownMenuItem>
-                  <DropdownMenuItem>Support</DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>Logout</DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
+              {/* for Dark mode */}
+              <ThemeToggle />
             </div>
           </div>
         </header>

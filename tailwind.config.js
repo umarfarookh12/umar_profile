@@ -18,7 +18,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        inter: ["Alfa", "sans-serif"],
+        alfa: ["Alfa", "sans-serif"],
+        allura: ["Allura", "sans-serif"],
+        // dmSerif: [""],
+        monoton: ["Monoton", "sans-serif"],
+        anton: ["Anton", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

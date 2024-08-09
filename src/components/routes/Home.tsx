@@ -8,7 +8,7 @@ const Home = () => {
         <div className="mx-auto max-w-2xl py-32 sm:py-48">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 tracking-wider dark:text-white uppercase sm:text-6xl">
-              Umar farookh syed
+              Umar farookh <span className="font-allura">syed</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-slate-300">
               Building responsive, dynamic, and user-friendly web applications

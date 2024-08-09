@@ -2,38 +2,6 @@
 // import { Button } from "../ui/button";
 
 const Projects = () => {
-  // const businessArray = [
-  //   {
-  //     name: "Food",
-  //     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ40hnVq2JUrOKoT65tymRIkMri7uongmGC5g&s",
-  //     description:
-  //       "Preparation of fresh products for market, and manufacture of prepared food products",
-  //   },
-  //   {
-  //     name: "manufacturing",
-  //     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0wZlZ4s355BZgebKtXE12QKJo98Zf640x5A&s",
-  //     description:
-  //       "Transform raw materials using a combination of human labor, machinery",
-  //   },
-  //   {
-  //     name: "Marketing",
-  //     img: "  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7rTlzy04PvuM6u_dbXN_Hshz8D1f86gNSLw&s",
-  //     description:
-  //       "The marketing of goods and services by one business to another.",
-  //   },
-  //   {
-  //     name: "Trading",
-  //     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXP62i72u27bzdHXL2EgCVOB9CrXr80B5YmQ&s",
-  //     description:
-  //       "Trading involves purchasing and selling stocks, currencies with a goal of making a profit.",
-  //   },
-  //   {
-  //     name: "Design",
-  //     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTphDejz4eJl95uKHBk_2z4wrWXiWOFrUhpxQ&s",
-  //     description:
-  //       "Creativity, innovation, and ability to adapt to changing trends and consumer demands",
-  //   },
-  // ];
   return (
     <div className="dark:bg-black bg-white">
       <section
@@ -83,7 +51,7 @@ const Projects = () => {
                   <line x1="17" y1="17" x2="17" y2="17.01"></line>
                 </svg>
               </div>
-              <h3 className="mt-6 text-dark dark:text-gray-400 font-bold">
+              <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
                 THE COFFEE SHOP
               </h3>
               <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty ">
@@ -93,7 +61,7 @@ const Projects = () => {
               </p>
             </div>
           </a>
-          <div className="rounded-md border  dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
+          <div className="rounded-md border dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
             <a
               href="
                 https://github.com/umarFarookh212/weather_app"
@@ -165,7 +133,7 @@ const Projects = () => {
                   <line x1="16" y1="17" x2="14.5" y2="18.5"></line>
                 </svg>
               </div>
-              <h3 className="mt-6 text-black font-bold dark:text-gray-400">
+              <h3 className="mt-6 text-black font-bold dark:text-gray-400 hover:underline">
                 TODO APP
               </h3>
               <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty">

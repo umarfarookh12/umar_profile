@@ -3,9 +3,9 @@ import { ThemeProvider } from "./components/ThemeProvider";
 
 import Home from "./components/routes/Home";
 import About from "./components/routes/About";
-import MyProjects from "./components/routes/MyProjects";
 import Contact from "./components/routes/Contact";
 import NavBar from "./components/NavBar";
+import Projects from "./components/routes/Projects";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,8 +27,8 @@ function App() {
           element: <About />,
         },
         {
-          path: "/myProjects",
-          element: <MyProjects />,
+          path: "/Projects",
+          element: <Projects />,
         },
         {
           path: "/contact",

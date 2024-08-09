@@ -39,10 +39,10 @@ const NavBar = () => {
                     About
                   </Link>
                   <Link
-                    to={`MyProjects`}
+                    to={`Projects`}
                     className="text-muted-foreground hover:text-foreground"
                   >
-                    MyProjects
+                    Projects
                   </Link>
                   <Link
                     to={`contact`}
@@ -77,10 +77,10 @@ const NavBar = () => {
                 About
               </Link>
               <Link
-                to={`MyProjects`}
+                to={`Projects`}
                 className="text-muted-foreground transition-colors  hover:text-blue-700"
               >
-                MyProjects
+                Projects
               </Link>
               <Link
                 to={`contact`}

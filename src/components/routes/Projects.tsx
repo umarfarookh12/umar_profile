@@ -54,19 +54,43 @@ const Projects = () => {
               <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
                 THE COFFEE SHOP
               </h3>
-              <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty ">
+              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm  ">
                 "Welcome to our coffee shop, where you can easily order your
                 favorite coffee and conveniently pay using UPI for a seamless
                 and delightful experience."
               </p>
             </div>
           </a>
-          <div className="rounded-md border dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
-            <a
-              href="
+          <a
+            href="https://github.com/umarfarookh12/umar_profile"
+            target="_blank"
+          >
+            <div className="rounded-md border  dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
+              <div
+                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
+                }}
+              >
+                <img src="src/images/titleLogo.jpeg" alt="portfolio" />
+              </div>
+              <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
+                My Portfolio
+              </h3>
+              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm  ">
+                "This portfolio showcases front-end developer in ReactJS,
+                JavaScript, and tailwind.css through various projects that to
+                creating dynamic and user-friendly web applications."
+              </p>
+            </div>
+          </a>
+          <a
+            href="
                 https://github.com/umarFarookh212/weather_app"
-              target="_blank"
-            >
+            target="_blank"
+          >
+            <div className="rounded-md border  dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
               <div
                 className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style={{
@@ -94,18 +118,18 @@ const Projects = () => {
               <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
                 WEATHER APP
               </h3>
-              <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty">
+              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm ">
                 "With this weather app, users can select from a dropdown list of
                 countries to find accurate and up-to-date weather information
                 for their chosen location."
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
 
-          <div className="rounded-md border dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
-            <a href="https://github.com/umarFarookh212/TODO" target="_blank">
+          <a href="https://github.com/umarFarookh212/TODO" target="_blank">
+            <div className="rounded-md border  dark:bg-neutral-900/50 p-9 text-center shadow hover:scale-105 border-violet-800">
               <div
-                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md border "
                 style={{
                   backgroundImage:
                     " linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
@@ -136,12 +160,12 @@ const Projects = () => {
               <h3 className="mt-6 text-black font-bold dark:text-gray-400 hover:underline">
                 TODO APP
               </h3>
-              <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty">
+              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm ">
                 "A user-friendly to-do list application that allows users to
                 effortlessly create, manage & organize their tasks."
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
 
         <div

@@ -20,18 +20,18 @@ const About = () => {
   }, []);
   return (
     <div>
-      <Card className="mx-auto my-3 md:w-[70%]">
+      <Card className="mx-auto my-3 md:w-[70%] border-none">
         <CardHeader>
-          <CardTitle className="text-2xl md:text-5xl font-allura text-blue-600 dark:text-blue-400 tracking-widest text-center duration-300">
+          <CardTitle className="text-3xl md:text-5xl font-allura text-blue-600 dark:text-blue-400 tracking-widest text-center duration-300">
             About me
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="overflow-hidden md:max-w-3xl">
             <div className="flex flex-col md:flex-row gap-4">
-              <div className="md:shrink-0">
+              <div className="md:shrink-0 sm:shrink">
                 <img
-                  className={`h-68 w-full object-cover md:h-full md:w-48 aspect-auto rounded-2xl ${
+                  className={`h-10 object-cover md:h-full md:w-44 aspect-auto rounded-2xl ${
                     isBlurred ? "blur-sm" : "blur-none"
                   }`}
                   src="src/images/IMG-20231214-WA0023.jpg"
@@ -45,7 +45,7 @@ const About = () => {
                 <p className="block mt-1 leading-tight font-medium">
                   Innovative Front-End Developer
                 </p>
-                <p className="mt-2 dark:text-slate-300 font-alfa md:text-md flex flex-col justify-evenly leading-relaxed items-start text-pretty">
+                <p className="mt-2 dark:text-slate-300 font-alfa md:text-md flex flex-col justify-evenly leading-relaxed items-start text-pretty space-y-3">
                   I am a Front End Developer who is working on a new and
                   creative projects. I have experience working with HTML, CSS,
                   JavaScript, React, Tailwind css and Git. I am passionate about
@@ -72,19 +72,19 @@ const About = () => {
         </CardContent>
         <CardFooter className="grid md:grid-cols-3  gap-4">
           <div>
-            <p className="text-xl font-bold text-blue-700">Tools l use</p>
+            <p className="text-xl font-bold text-blue-700">Tools I use</p>
             <p className="text-sm font-semibold text-pretty md:block">
               Here are some awesome tools i use to make Development and problem
               solving easier and faster for my user
             </p>
           </div>
-          <div className="grid grid-cols-2 col-span-2 md:grid-cols-3 gap-4 text-lg font-medium font-sans capitalize">
+          <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 gap-4 text-lg font-medium font-sans capitalize">
             <div className="flex flex-col justify-between items-center">
               <div className="flex flex-col items-center justify-around w-28">
                 <img
                   src="src/images/react_logo.png"
                   alt="ReactLogo"
-                  className="h-5 object-cover rounded-full animate-spin w-5"
+                  className="h-7 object-cover rounded-full animate-spin w-7"
                 />
                 <p>React</p>
               </div>
@@ -95,7 +95,7 @@ const About = () => {
                 <img
                   src="src/images/js_logo.png"
                   alt="jsLogo"
-                  className="h-5 object-cover animate-bounce"
+                  className="h-7 object-cover animate-bounce"
                 />
                 <p>JavaScript</p>
               </div>
@@ -106,7 +106,7 @@ const About = () => {
                 <img
                   src="src/images/git_logo.png"
                   alt="Github"
-                  className="h-5 object-cover rounded animate-bounce "
+                  className="h-7 object-cover rounded animate-bounce "
                 />
                 <p>Github</p>
               </div>
@@ -117,7 +117,7 @@ const About = () => {
                 <img
                   src="src/images/tailwind-logo.png"
                   alt="vsLogo"
-                  className="h-5 object-cover bg-black rounded-full animate-pulse"
+                  className="h-7 object-cover bg-black rounded-full animate-pulse"
                 />
                 <p>Tailwind</p>
               </div>
@@ -128,7 +128,7 @@ const About = () => {
                 <img
                   src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png "
                   alt="vsLogo"
-                  className="h-5 object-cover rounded animate-pulse"
+                  className="h-7 object-cover rounded animate-pulse"
                 />
                 <p>VsCode</p>
               </div>
@@ -139,7 +139,7 @@ const About = () => {
                 <img
                   src="src/images/bootstrap.svg"
                   alt="Bootstrap"
-                  className="h-5 object-cover rounded-lg bg-white animate-bounce"
+                  className="h-7 object-cover rounded-lg bg-white animate-bounce"
                 />
                 <p>Bootstrap</p>
               </div>

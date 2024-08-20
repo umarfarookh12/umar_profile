@@ -1,6 +1,3 @@
-// import { Card } from "../ui/card";
-// import { Button } from "../ui/button";
-
 const Projects = () => {
   return (
     <div className="dark:bg-black bg-white">
@@ -170,11 +167,13 @@ const Projects = () => {
 
         <div
           className="absolute bottom-0 left-0 z-0 h-1/3 w-full border-b"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right top, rgba(79, 80, 239, 0.7) 0%, transparent 50%, transparent 100%)",
-            borderColor: "rgba(92, 79, 240, 0.2)",
-          }}
+          style={
+            {
+              backgroundImage:
+                "linear-gradient(to right top, rgba(79, 80, 239, 0.7) 0%, transparent 50%, transparent 100%)",
+              borderColor: "rgba(92, 79, 240, 0.2)",
+            } as React.CSSProperties
+          }
         ></div>
         <div
           className="absolute bottom-0 right-0 z-0 h-1/3 w-full"

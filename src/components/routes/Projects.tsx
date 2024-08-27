@@ -20,9 +20,9 @@ const Projects = () => {
 
         <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
           <a href="https://sikandartea.edgecompute.app/" target="_blank">
-            <div className="rounded-md border  dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
+            <div className="rounded-lg dark:bg-neutral-900/50 p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
               <div
-                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
+                className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md border "
                 style={{
                   backgroundImage:
                     "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
@@ -56,75 +56,26 @@ const Projects = () => {
                 favorite coffee and conveniently pay using UPI for a seamless
                 and delightful experience."
               </p>
-            </div>
-          </a>
-          <a
-            href="https://github.com/umarfarookh12/umar_profile"
-            target="_blank"
-          >
-            <div className="rounded-md border  dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
-              <div
-                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                }}
-              >
-                <img src="src/images/titleLogo.jpeg" alt="portfolio" />
-              </div>
-              <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
-                My Portfolio
-              </h3>
-              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm  ">
-                "This portfolio showcases front-end developer in ReactJS,
-                JavaScript, and tailwind.css through various projects that to
-                creating dynamic and user-friendly web applications."
-              </p>
-            </div>
-          </a>
-          <a
-            href="
-                https://github.com/umarFarookh212/weather_app"
-            target="_blank"
-          >
-            <div className="rounded-md border  dark:bg-neutral-900/50 p-8 text-center shadow hover:scale-105 border-violet-800">
-              <div
-                className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)",
-                }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-bolt"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+              <div className="mt-5 flex justify-evenly items-center">
+                <a
+                  href="https://sikandartea.edgecompute.app/"
+                  target="_blank"
+                  className="font-semibold hover:underline text-violet-900"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
-                </svg>
+                  Live link
+                </a>
+                <a
+                  href="https://github.com/konic-technologies/sikandar-tea-cafe"
+                  className="font-semibold hover:underline text-violet-900"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
               </div>
-              <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
-                WEATHER APP
-              </h3>
-              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm ">
-                "With this weather app, users can select from a dropdown list of
-                countries to find accurate and up-to-date weather information
-                for their chosen location."
-              </p>
             </div>
           </a>
-
-          <a href="https://github.com/umarFarookh212/TODO" target="_blank">
-            <div className="rounded-md border  dark:bg-neutral-900/50 p-9 text-center shadow hover:scale-105 border-violet-800">
+          <a href="https://main--todo-focusflow.netlify.app/" target="_blank">
+            <div className="rounded-lg dark:bg-neutral-900/50 p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
               <div
                 className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md border "
                 style={{
@@ -161,6 +112,106 @@ const Projects = () => {
                 "A user-friendly to-do list application that allows users to
                 effortlessly create, manage & organize their tasks."
               </p>
+              <div className="mt-5 flex justify-evenly items-center">
+                <a
+                  href="https://main--todo-focusflow.netlify.app/"
+                  target="_blank"
+                  className="font-semibold hover:underline text-violet-900"
+                >
+                  Live link
+                </a>
+                <a
+                  href="https://github.com/umarFarookh212/TODO"
+                  className="font-semibold hover:underline text-violet-900"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="
+                https://github.com/umarFarookh212/weather_app"
+            target="_blank"
+          >
+            <div className="rounded-lg dark:bg-neutral-900/50 p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
+              <div
+                className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md border "
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
+                  borderColor: "rgb(93, 79, 240)",
+                }}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon-tabler icon-tabler-bolt"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
+                </svg>
+              </div>
+              <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
+                WEATHER APP
+              </h3>
+              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm ">
+                "users can select from a dropdown list of countries to find
+                accurate and up-to-date weather information for their chosen
+                location."
+              </p>
+              <div className="mt-5 flex justify-center items-center">
+                <a
+                  href="https://github.com/umarFarookh212/weather_app"
+                  className="font-semibold hover:underline text-violet-900"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/umarfarookh12/umar_profile"
+            target="_blank"
+          >
+            <div className="rounded-lg dark:bg-neutral-900/50 p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
+              <div
+                className="button-text mx-auto flex w-12 items-center justify-center rounded-md border "
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
+                }}
+              >
+                <img src="src/images/profile_logo.png" alt="portfolio" />
+              </div>
+              <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
+                My Portfolio
+              </h3>
+              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black dark:text-gray-400 text-pretty text-sm  ">
+                "This portfolio showcases front-end developer in ReactJS,
+                JavaScript, and tailwind.css through various projects that to
+                creating dynamic and user-friendly web applications."
+              </p>
+              <div className="mt-5 flex justify-center items-center">
+                <a
+                  href="https://github.com/umarfarookh12/umar_profile"
+                  className="font-semibold hover:underline text-violet-900"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </div>
             </div>
           </a>
         </div>

@@ -82,7 +82,7 @@ const About = () => {
             <div className="flex flex-col justify-between items-center">
               <div className="flex flex-col items-center justify-around w-28">
                 <img
-                  src="src/images/react_logo.png"
+                  src="src/images/react-2.svg"
                   alt="ReactLogo"
                   className="h-7 object-cover rounded-full animate-spin w-7"
                 />

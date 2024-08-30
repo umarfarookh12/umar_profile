@@ -1,9 +1,18 @@
+import { Card, CardHeader, CardTitle } from "../ui/card";
+
 const Projects = () => {
   return (
     <div className="dark:bg-black bg-white">
+      <Card className="border-none dark:bg-neutral-900/10">
+        <CardHeader>
+          <CardTitle className="text-3xl md:text-5xl font-allura text-blue-600 dark:text-blue-400 tracking-widest text-center">
+            Projects
+          </CardTitle>
+        </CardHeader>
+      </Card>
       <section
         id="features"
-        className="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 dark:bg-neutral-900/30 bg-white"
+        className="relative block px-6 md:px-10 dark:bg-neutral-900/30 bg-white"
       >
         <div className="relative mx-auto max-w-5xl text-center">
           <span className="text-black dark:text-gray-400 my-3 flex items-center justify-center font-bold uppercase tracking-wider">
@@ -193,7 +202,10 @@ const Projects = () => {
                     "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
                 }}
               >
-                <img src="src/images/profile_logo.png" alt="portfolio" />
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXIvVM7Yt6sAN2vQ7HWBYrtVTn93fs0mLrKPmLCRQn2a0Rf-LSC0YfvH9lEA&s"
+                  alt="portfolio"
+                />
               </div>
               <h3 className="mt-6 text-dark dark:text-gray-400 font-bold hover:underline">
                 My Portfolio

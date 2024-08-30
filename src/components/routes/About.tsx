@@ -78,13 +78,13 @@ const About = () => {
               solving easier and faster for my user
             </p>
           </div>
-          <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 gap-4 text-lg font-medium font-sans capitalize">
+          <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 gap-4 text-lg font-semibold tracking-wider font-allura capitalize">
             <div className="flex flex-col justify-between items-center">
               <div className="flex flex-col items-center justify-around w-28">
                 <img
-                  src="src/images/react-2.svg"
+                  src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
                   alt="ReactLogo"
-                  className="h-7 object-cover rounded-full animate-spin w-7"
+                  className="h-7 object-cover rounded-full w-7"
                 />
                 <p>React</p>
               </div>
@@ -95,7 +95,7 @@ const About = () => {
                 <img
                   src="src/images/js_logo.png"
                   alt="jsLogo"
-                  className="h-7 object-cover animate-bounce"
+                  className="h-7 object-cover"
                 />
                 <p>JavaScript</p>
               </div>
@@ -106,7 +106,7 @@ const About = () => {
                 <img
                   src="src/images/git_logo.png"
                   alt="Github"
-                  className="h-7 object-cover rounded animate-bounce "
+                  className="h-7 object-cover rounded "
                 />
                 <p>Github</p>
               </div>
@@ -117,9 +117,9 @@ const About = () => {
                 <img
                   src="src/images/tailwind-logo.png"
                   alt="vsLogo"
-                  className="h-7 object-cover bg-black rounded-full animate-pulse"
+                  className="h-7 object-cover bg-black rounded-full"
                 />
-                <p>Tailwind</p>
+                <p>Tailwind.CSS</p>
               </div>
               <Progess pNumber="90" />
             </div>
@@ -128,7 +128,7 @@ const About = () => {
                 <img
                   src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png "
                   alt="vsLogo"
-                  className="h-7 object-cover rounded animate-pulse"
+                  className="h-7 object-cover rounded"
                 />
                 <p>VsCode</p>
               </div>
@@ -139,7 +139,7 @@ const About = () => {
                 <img
                   src="src/images/bootstrap.svg"
                   alt="Bootstrap"
-                  className="h-7 object-cover rounded-lg bg-white animate-bounce"
+                  className="h-7 object-cover rounded-lg bg-white"
                 />
                 <p>Bootstrap</p>
               </div>
@@ -152,7 +152,7 @@ const About = () => {
                   alt="materialUI"
                   className="h-7 object-cover rounded-full"
                 />
-                <p>materialUI</p>
+                <p>material-UI</p>
               </div>
               <Progess pNumber="75" />
             </div>

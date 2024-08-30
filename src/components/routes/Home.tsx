@@ -1,6 +1,8 @@
 // import { Button } from "../ui/button";
 // import { Card } from "../ui/card";
 
+import { NavLink } from "react-router-dom";
+
 const Home = () => {
   return (
     <>
@@ -24,16 +26,14 @@ const Home = () => {
                   </span>
                 </a>
                 <a href="#" className="relative">
-                  <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-gray-700 dark:bg-gray-400"></span>
-                  <button
-                    onClick={() => {
-                      window.location.href = "/About";
-                    }}
-                  >
-                    <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-black bg-black px-3 py-1 text-base font-bold text-white transition duration-100 hover:bg-gray-900 hover:text-yellow-500 ">
-                      let's get started &rarr;
-                    </span>
-                  </button>
+                  <NavLink to="/About">
+                    <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-gray-700 dark:bg-gray-400"></span>
+                    <button>
+                      <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-black bg-black px-3 py-1 text-base font-bold text-white transition duration-100 hover:bg-gray-900 hover:text-yellow-500 ">
+                        let's get started &rarr;
+                      </span>
+                    </button>
+                  </NavLink>
                 </a>
               </div>
             </div>

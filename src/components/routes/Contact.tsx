@@ -43,7 +43,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="border border-blue-400 font-semibold w-fit p-2 justify-self-start  rounded-md">
-              <a href="https://github.com/umarfarookh12">
+              <a href="https://github.com/umarfarookh12" target="_blank">
                 https://github.com/umarfarookh12
               </a>
             </div>

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { ThemeToggle } from "./ThemeToggle";
 
 const NavBar = () => {
   return (
@@ -96,7 +95,7 @@ const NavBar = () => {
                 </a>
               </Button>
               {/* for Dark mode */}
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
             </div>
           </div>
         </header>

@@ -22,7 +22,7 @@ const About = () => {
     <div>
       <Card className="mx-auto my-3 md:w-[70%] border-none">
         <CardHeader>
-          <CardTitle className="text-3xl md:text-5xl font-allura text-blue-600 dark:text-blue-400 tracking-widest text-center duration-300">
+          <CardTitle className="text-3xl md:text-5xl font-allura text-blue-600  tracking-widest text-center duration-300">
             About me
           </CardTitle>
         </CardHeader>

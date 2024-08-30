@@ -10,13 +10,13 @@ const Contact = () => {
     <div>
       <Card className="mx-auto my-3 space-y-10 md:w-[100%] border-none ">
         <CardHeader>
-          <CardTitle className="text-3xl md:text-md font-allura text-blue-600 dark:text-blue-400 tracking-widest text-center">
+          <CardTitle className="text-3xl md:text-md font-allura text-blue-600 tracking-widest text-center">
             Contact me
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-10 w-full mx-auto">
           <div className="flex flex-col items-center w-full space-y-10">
-            <p className="md:shrink-0 sm:shrink text-xl md:text-2xl font-semibold text-black dark:text-blue-400">
+            <p className="md:shrink-0 sm:shrink text-xl md:text-2xl font-semibold text-black">
               Ways To Contact Me
             </p>
             <p className="text-sm font-semibold text-muted-foreground md:shrink-0 sm:shrink md:w-[70%] space-y-10">

@@ -50,9 +50,11 @@ const NavBar = () => {
               </SheetContent>
             </Sheet>
             <div>
-              <span className="text-md md:text-2xl font-bold font-monoton uppercase text-violet-600 tracking-widest">
-                Umar farookh
-              </span>
+              <Link to="/">
+                <span className="text-md md:text-2xl font-bold font-monoton uppercase text-violet-600 tracking-widest">
+                  Umar farookh
+                </span>
+              </Link>
             </div>
           </div>
           <div className="grid md:grid-cols-2 gap-4 content-between">

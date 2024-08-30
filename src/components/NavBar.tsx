@@ -88,7 +88,7 @@ const NavBar = () => {
 
             <div className="flex justify-end w-auto gap-2">
               <Button variant="secondary" size="icon" className="rounded-full">
-                <a href="https://github.com/umarFarookh212" target="_blank">
+                <a href="https://github.com/umarfarookh12" target="_blank">
                   <img
                     src="src/images/git_logo.png"
                     className="rounded-full h-7"

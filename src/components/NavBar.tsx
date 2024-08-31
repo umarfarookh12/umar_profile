@@ -92,8 +92,8 @@ const NavBar = () => {
                 className="rounded-full"
               >
                 <img
-                  src="src/images/git_logo.png"
-                  className="rounded-full h-7"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyWGx49vyixrV2CW_xbXIDPiqg5tiabAH9yw&s"
+                  className="rounded-full h-10 object-cover"
                 />
               </a>
             </div>

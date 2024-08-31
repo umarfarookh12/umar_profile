@@ -131,7 +131,7 @@ const About = () => {
             <div className="flex flex-col justify-between items-center">
               <div className="flex flex-col items-center justify-around w-28">
                 <img
-                  src="src/images/bootstrap.svg"
+                  src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9bnBajRLMptfJJpo8aep8NBmtyybp5awJMQ&s"
                   className="h-7 object-cover rounded-lg bg-white"
                 />
                 <p>Bootstrap</p>

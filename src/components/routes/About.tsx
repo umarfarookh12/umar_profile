@@ -34,7 +34,7 @@ const About = () => {
                   className={`h-72 mx-auto object-cover md:h-full md:w-44 aspect-auto rounded-2xl ${
                     isBlurred ? "blur-sm" : "blur-none"
                   }`}
-                  src="src/images/IMG-20231214-WA0023.jpg"
+                  src="src/images/IMG-20231214-WA0023.JPG"
                 />
               </div>
               <div className="md:p-6">

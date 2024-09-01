@@ -1,10 +1,4 @@
-import {
-  createBrowserRouter,
-  Outlet,
-  RouterProvider,
-  useLocation,
-} from "react-router-dom";
-import { ThemeProvider } from "./components/ThemeProvider";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 import Home from "./components/routes/Home";
 import About from "./components/routes/About";
@@ -14,12 +8,7 @@ import Projects from "./components/routes/Projects";
 import { useEffect, useState } from "react";
 
 function AppWrapper() {
-  const location = useLocation();
   const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setLoading(true);
-  }, [location.pathname]);
 
   useEffect(() => {
     setLoading(false);
@@ -72,11 +61,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return (
-    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-      <RouterProvider router={router} />
-    </ThemeProvider>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

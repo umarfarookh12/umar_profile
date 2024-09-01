@@ -29,18 +29,18 @@ const About = () => {
         <CardContent>
           <div className="overflow-hidden md:max-w-3xl">
             <div className="flex flex-col md:flex-row gap-4">
-              <div className="md:shrink-0 sm:shrink">
+              {/* <div className="md:shrink-0 sm:shrink">
                 <img
                   className={`h-72 mx-auto object-cover md:h-full md:w-44 aspect-auto rounded-2xl ${
                     isBlurred ? "blur-sm" : "blur-none"
                   }`}
                   src="src/images/IMG-20231214-WA0023.JPG"
                 />
-              </div>
+              </div> */}
               <div className="md:p-6">
-                <div className="uppercase tracking-wide text-md md:text-lg text-indigo-500 font-bold ">
+                {/* <div className="uppercase tracking-wide text-md md:text-lg text-indigo-500 font-bold ">
                   About Me
-                </div>
+                </div> */}
                 <p className="block mt-1 leading-tight font-medium">
                   Innovative Front-End Developer
                 </p>

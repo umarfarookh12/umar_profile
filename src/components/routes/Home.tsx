@@ -17,7 +17,7 @@ const Home = () => {
                 href="https://www.linkedin.com/company/konic-technologies/"
                 target="_blank"
               >
-                <span className="bg-gradient-to-b text-blue-800 hover:text-red-600 bg-clip-text font-bold text-transparent">
+                <span className="text-blue-800 hover:text-red-600 bg-clip-text font-bold">
                   Konic technologies
                 </span>
               </a>

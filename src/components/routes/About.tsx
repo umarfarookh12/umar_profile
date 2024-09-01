@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect } from "react";
 import Progess from "../Progess";
 import {
   Card,
@@ -9,15 +9,15 @@ import {
 } from "../ui/card";
 
 const About = () => {
-  const [isBlurred, setIsBlurred] = useState(true);
+  // const [isBlurred, setIsBlurred] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsBlurred(false);
-    }, 2000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsBlurred(false);
+  //   }, 2000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
   return (
     <div>
       <Card className="mx-auto my-3 md:w-[70%] border-none text-black">

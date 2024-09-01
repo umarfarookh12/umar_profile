@@ -3,12 +3,25 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="relative px-6 ">
+      <div className="relative px-6">
         <div className="mx-auto max-w-2xl py-32 sm:py-48">
-          <div className="text-center">
+          <div className="text-center space-y-6">
             <h1 className="text-4xl font-bold xt-gray-600 text-black tracking-wider uppercase sm:text-6xl">
               Umar farookh <span className="font-allura">syed</span>
             </h1>
+            <div className="flex flex-col">
+              <p className="font-medium text-lg text-black capitalize  mx-auto ">
+                Front end Developer
+              </p>
+              <a
+                href="https://www.linkedin.com/company/konic-technologies/"
+                target="_blank"
+              >
+                <span className="bg-gradient-to-b text-blue-800 hover:text-red-600 bg-clip-text font-bold text-transparent">
+                  Konic technologies
+                </span>
+              </a>
+            </div>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Building responsive, dynamic, and user-friendly web applications
             </p>

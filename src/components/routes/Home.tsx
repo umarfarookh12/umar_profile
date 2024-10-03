@@ -10,19 +10,19 @@ const Home = () => {
               Umar farookh <span className="font-allura">syed</span>
             </h1>
             <div className="flex flex-col">
-              <p className="font-medium text-lg text-black capitalize  mx-auto ">
+              <p className="font-semibold underline underline-offset-4 text-xl text-black font-serif capitalize mx-auto ">
                 Front end Developer
               </p>
               <a
                 href="https://www.linkedin.com/company/konic-technologies/"
                 target="_blank"
               >
-                <span className="text-blue-800 hover:text-red-600 bg-clip-text font-bold">
-                  Konic technologies
+                <span className="text-violet-600 hover:text-red-600 bg-clip-text font-bold text-xl font-mono">
+                  Konic Technologies
                 </span>
               </a>
             </div>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="text-lg leading-8 text-gray-800">
               Building responsive, dynamic, and user-friendly web applications
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -31,13 +31,15 @@ const Home = () => {
                   <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-black"></span>
                   <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-black bg-white px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900">
                     <a
-                      href=" src/components/ui/umar_6M_exp_frontEnd.pdf"
+                      href="https://drive.google.com/file/d/1J610yUSXMZnig7PP2GS-aWqNvqD5b2rQ/view?usp=drive_link"
                       download={true}
+                      target="_blank"
                     >
-                      Download resume
+                      View resume
                     </a>
                   </span>
                 </a>
+
                 <NavLink to="About" className="relative">
                   <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-gray-700"></span>
                   <button>

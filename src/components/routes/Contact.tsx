@@ -29,11 +29,13 @@ const Contact = () => {
           </div>
           <div className="grid md:grid-cols-2 justify-items-center content-center place-content-center md:w-[70%] md:mx-auto gap-4 text-sm">
             <div className="border border-blue-400 font-semibold w-fit p-2 justify-self-start md:justify-self-end rounded-md ">
-              <a href="#">umarsyed1200@gmail.com</a>
+              <form method="POST">
+                <a href="mailto: umarfarookh.sd@gmail.com">
+                  umarfarookh.sd@gmail.com
+                </a>
+              </form>
             </div>
-            <div className="border border-blue-400 font-bold w-fit p-2 justify-self-start rounded-md font-mono tracking-wide">
-              <a href="#">+91 9441812115</a>
-            </div>
+
             <div className="border border-blue-400 font-semibold w-fit p-2 md:justify-self-end rounded-md">
               <a
                 href="https://www.linkedin.com/in/umarfarookh/"

@@ -27,7 +27,7 @@ const Contact = () => {
               best to respond promptly
             </p>
           </div>
-          <div className="grid md:grid-cols-2 justify-items-center content-center place-content-center md:w-[70%] md:mx-auto gap-4 text-sm">
+          <div className="grid lg:grid-cols-3 justify-items-center content-center place-content-center md:w-[70%] md:mx-auto gap-4 md:text-md">
             <div className="border border-blue-400 font-semibold w-fit p-2 justify-self-start md:justify-self-end rounded-md ">
               <form method="POST">
                 <a href="mailto: umarfarookh.sd@gmail.com">

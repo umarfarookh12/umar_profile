@@ -22,9 +22,11 @@ const Home = () => {
                 </span>
               </a>
             </div>
-            <p className="text-lg leading-8 text-gray-800">
-              Building responsive, dynamic, and user-friendly web applications
-            </p>
+            <NavLink to="/projects" className="">
+              <p className="text-lg leading-8 text-gray-800 hover:ease-linear">
+                Building Responsive, Dynamic & User-Friendly web applications
+              </p>
+            </NavLink>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <div className="flex flex-wrap justify-center gap-6">
                 <a className="relative" href="#">
@@ -32,7 +34,6 @@ const Home = () => {
                   <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-black bg-white px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-yellow-400 hover:text-gray-900">
                     <a
                       href="https://drive.google.com/file/d/1J610yUSXMZnig7PP2GS-aWqNvqD5b2rQ/view?usp=drive_link"
-                      download={true}
                       target="_blank"
                     >
                       View resume

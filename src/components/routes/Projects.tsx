@@ -5,7 +5,7 @@ const Projects = () => {
     <div className=" bg-white">
       <Card className="border-none">
         <CardHeader>
-          <CardTitle className="text-3xl md:text-5xl font-allura text-blue-600 tracking-widest text-center">
+          <CardTitle className="text-3xl md:text-4xl font-allura text-blue-600 tracking-widest text-center">
             Projects
           </CardTitle>
         </CardHeader>
@@ -15,44 +15,52 @@ const Projects = () => {
           <span className="text-black my-3 flex items-center justify-center font-bold uppercase tracking-wider">
             Why choose me
           </span>
-          <h2 className="block w-full bg-gradient-to-b from-violet-700 to-black bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+          <h2 className="block w-full h-16 bg-gradient-to-b from-violet-700 to-black bg-clip-text font-bold text-transparent text-lg md:text-4xl">
             Build a Website beyond Customer's expections
           </h2>
-          <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-bold leading-relaxed tracking-wide text-orange-500 ">
+          <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-bold leading-relaxed tracking-wide text-orange-500 text-sm md:text-lg">
             I have worked in many projects but these are some of my most recent
             ones – feel free to visit the projects.
           </p>
         </div>
 
         <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
+          <a href="https://www.aftercrop.in/" target="_blank">
+            <div className="rounded-lg p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
+              <div className="button-text mx-auto flex h-14 w-12 items-center justify-center">
+                <img
+                  src="https://cdn-icons-png.freepik.com/512/2066/2066573.png?ga=GA1.1.1989034904.1727339754"
+                  alt="Storage"
+                  loading="lazy"
+                />
+              </div>
+              <h3 className="mt-6 text-dark font-bold hover:underline">
+                AFTERCROP COLD STORAGE
+              </h3>
+              <p className="my-4 mb-0 font-medium leading-relaxed tracking-wide text-black -400 text-pretty text-sm  ">
+                "AfterCrop cold storage system allows to store items for
+                different durations with adjustable temperatures. It tracks the
+                entry and exit of items using truck numbers."
+              </p>
+              <div className="mt-5 flex justify-evenly items-center">
+                <a
+                  href="https://www.aftercrop.in/"
+                  target="_blank"
+                  className="font-semibold hover:underline text-violet-900"
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+          </a>
           <a href="https://sikandartea.edgecompute.app/" target="_blank">
             <div className="rounded-lg p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
-              <div
-                className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)",
-                }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-color-swatch"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M19 3h-4a2 2 0 0 0 -2 2v12a4 4 0 0 0 8 0v-12a2 2 0 0 0 -2 -2"></path>
-                  <path d="M13 7.35l-2 -2a2 2 0 0 0 -2.828 0l-2.828 2.828a2 2 0 0 0 0 2.828l9 9"></path>
-                  <path d="M7.3 13h-2.3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h12"></path>
-                  <line x1="17" y1="17" x2="17" y2="17.01"></line>
-                </svg>
+              <div className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md ">
+                <img
+                  src="https://cdn-icons-png.freepik.com/256/14406/14406470.png?ga=GA1.1.1989034904.1727339754&semt=ais_hybrid"
+                  alt="coffee"
+                  loading="lazy"
+                />
               </div>
               <h3 className="mt-6 text-dark font-bold hover:underline">
                 THE COFFEE SHOP
@@ -82,34 +90,14 @@ const Projects = () => {
           </a>
           <a href="https://main--todo-focusflow.netlify.app/" target="_blank">
             <div className="rounded-lg -900/50 p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
-              <div
-                className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    " linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)",
-                }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-tools"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4"></path>
-                  <line x1="14.5" y1="5.5" x2="18.5" y2="9.5"></line>
-                  <polyline points="12 8 7 3 3 7 8 12"></polyline>
-                  <line x1="7" y1="8" x2="5.5" y2="9.5"></line>
-                  <polyline points="16 12 21 17 17 21 12 16"></polyline>
-                  <line x1="16" y1="17" x2="14.5" y2="18.5"></line>
-                </svg>
+              <div className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md ">
+                <img
+                  src="
+                https://cdn-icons-png.freepik.com/256/12966/12966974.png?ga=GA1.1.1989034904.1727339754&semt=ais_hybrid
+                  "
+                  alt="Todo"
+                  loading="lazy"
+                />
               </div>
               <h3 className="mt-6 text-black font-bold -400 hover:underline">
                 TODO APP
@@ -143,29 +131,12 @@ const Projects = () => {
             target="_blank"
           >
             <div className="rounded-lg -900/50 p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
-              <div
-                className="button-text mx-auto flex h-16 w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)",
-                }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-bolt"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
-                </svg>
+              <div className="button-text mx-auto flex h-16 w-12 items-center justify-center">
+                <img
+                  src="https://cdn-icons-png.freepik.com/256/17275/17275827.png?ga=GA1.1.1989034904.1727339754&semt=ais_hybrid"
+                  alt="weather"
+                  loading="lazy"
+                />
               </div>
               <h3 className="mt-6 text-dark -400 font-bold hover:underline">
                 WEATHER APP
@@ -192,16 +163,11 @@ const Projects = () => {
             target="_blank"
           >
             <div className="rounded-lg -900/50 p-5 h-68 text-center border border-violet-300 hover:border-violet-900">
-              <div
-                className="button-text mx-auto flex w-12 items-center justify-center rounded-md border "
-                style={{
-                  backgroundImage:
-                    "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                }}
-              >
+              <div className="button-text mx-auto flex w-12 items-center justify-center">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXIvVM7Yt6sAN2vQ7HWBYrtVTn93fs0mLrKPmLCRQn2a0Rf-LSC0YfvH9lEA&s"
+                  src="https://cdn-icons-png.freepik.com/256/3476/3476457.png?ga=GA1.1.1989034904.1727339754&semt=ais_hybrid"
                   alt="portfolio"
+                  loading="lazy"
                 />
               </div>
               <h3 className="mt-6 text-dark -400 font-bold hover:underline">

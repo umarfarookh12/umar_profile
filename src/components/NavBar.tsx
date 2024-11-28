@@ -1,6 +1,3 @@
-import { Menu } from "lucide-react";
-import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -9,7 +6,7 @@ const NavBar = () => {
       <div className="flex h-auto w-full flex-col">
         <header className="sticky top-0 grid grid-flow-row-dense grid-cols-2 md:grid-cols-2 content-center place-content-between h-16 items-center gap-4 border-b px-4 md:px-6 backdrop-blur-sm bg-white/30">
           <div className="flex w-full justify-start md:ps-5 items-center gap-4 md:ml-auto md:gap-2 lg:gap-10 md:h-10">
-            <Sheet>
+            {/* <Sheet>
               <SheetTrigger asChild>
                 <Button
                   variant="outline"
@@ -48,7 +45,7 @@ const NavBar = () => {
                   </a>
                 </nav>
               </SheetContent>
-            </Sheet>
+            </Sheet> */}
             <div>
               <Link to="/">
                 <span className="text-md md:text-2xl font-bold font-monoton uppercase text-violet-600 tracking-widest">
@@ -57,8 +54,8 @@ const NavBar = () => {
               </Link>
             </div>
           </div>
-          <div className="grid md:grid-cols-2 gap-4 content-between">
-            <nav className="hidden flex-col justify-evenly items-center w-full gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-md lg:gap-6 ">
+          <div className="grid md:grid-cols-1 gap-4 content-between">
+            {/* <nav className="hidden flex-col justify-evenly items-center w-full gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-md lg:gap-6 ">
               <Link
                 to="/"
                 className="text-muted-foreground transition-colors hover:text-blue-700 hover:underline on "
@@ -83,9 +80,9 @@ const NavBar = () => {
               >
                 Contact
               </Link>
-            </nav>
+            </nav> */}
 
-            <div className="flex justify-end w-auto gap-2">
+            <div className="flex justify-end w-auto gap-3">
               <a
                 href="https://github.com/umarfarookh12"
                 target="_blank"
@@ -94,6 +91,12 @@ const NavBar = () => {
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyWGx49vyixrV2CW_xbXIDPiqg5tiabAH9yw&s"
                   className="rounded-full h-10 object-cover"
+                />
+              </a>
+              <a href="https://linkedin.com/in/umarfarookh/" target="_blank">
+                <img
+                  src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02TaqZih24YN97eRUm1GkN4XnrpDfJ-1ZRQ&s"
+                  className="rounded h-10 object-cover"
                 />
               </a>
             </div>

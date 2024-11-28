@@ -10,7 +10,7 @@ const Contact = () => {
     <div>
       <Card className="mx-auto my-3 space-y-10 md:w-[100%] border-none ">
         <CardHeader>
-          <CardTitle className="text-3xl md:text-md font-allura text-blue-600 tracking-widest text-center">
+          <CardTitle className="text-3xl md:text-5xl font-allura text-blue-600  tracking-widest text-center duration-300">
             Contact me
           </CardTitle>
         </CardHeader>
@@ -51,7 +51,6 @@ const Contact = () => {
             </div>
           </div>
         </CardContent>
-        <CardFooter></CardFooter>
       </Card>
     </div>
   );
